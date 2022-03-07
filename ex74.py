@@ -14,3 +14,4 @@ for c in range(0, 10):
         elif tupla > maior:
             maior = tupla
 print(f'\nO maior é {maior} e o menor é {menor}')
+print('Fim do programa')
