@@ -97,3 +97,31 @@ else:
 for c in range(0, 6) -----> 0 1 2 3 4 5 , ignora o último digito
 for c in range(6, 0, -1) ---> 6 5 4 3 2 1, o "-1" é a iteração(decremento)
 for c in range(0, 7, 2) ---> 0 2 4 6 , incremento de 2 em 2
+
+-~-~-~-~-~-~-~-~- TUPLAS ~-~-~-~-~-~-~-~-
+fatiamento de tuplas --> lanche = ('pizza','hamburguer', 'suco')
+lanche[1:] = (hamburguer,suco) --> do indice 1 até o final
+lanche[-1] = (suco) --> ultimo indice
+len(lanche) = 3 --> tamanho da tupla
+for c in lanche: --> mostra todos os lanches
+for c in range(0, len(lanche)): --> mostra todos os lanches
+for pos, comida in enumerate(lanche): -- > mostra todos os lanches e a posição respectiva
+sorted(lanche) --> cria uma lista com a tupla ordenada **Não altera a tupla
+index(x) --> mostra o indice do x
+
+-~-~-~-~-~-~-~-~- LISTAS ~-~-~-~-~-~-~-~-
+lanche.append('biscoito') -- > lanche = ['pizza','hamburguer', 'suco', 'biscoito']
+lanche.insert(0,'cachorro-quente') --> ['cachorro-quente', 'pizza','hamburguer', 'suco', 'biscoito'] -- indice e item a ser incluso
+del lanche[3] --> deleta o item 'suco'
+lanche.pop(3) --> deleta o item 'suco'
+lanche.pop() --> deleta o ultimo item
+lanche.remove('suco') --> deleta o item 'suco'
+if 'pizza' in lanche:
+    lanche.remove('pizza') --> se não houver o ítem não dará erro
+valores = list(range(4, 11): -- > [4, 5, 6, 7, 8, 9, 10]
+valores.sort() --> lista ordenada
+valores.sort(reverse=True) --> lista ordenada de forma decrescente = [10, 9, 8, 7, 6, 5, 4]
+valores = list() ou valores = [] --> cria uma lista vazia
+a = [2, 3, 4, 7]
+b = a --> cria uma ligação entre as listas
+b = a[:] --> cria uma cópia dos elementos
