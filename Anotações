@@ -125,3 +125,28 @@ valores = list() ou valores = [] --> cria uma lista vazia
 a = [2, 3, 4, 7]
 b = a --> cria uma ligação entre as listas
 b = a[:] --> cria uma cópia dos elementos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
