@@ -1,6 +1,6 @@
-matriz = []
-for c in range(3):
-        for i in range(3):
-            matriz.append(int(input(f'Digite o valor [{c}][{i}]: ')))
-for cont in range(9):
-    print(f' [{matriz[cont]}]')
+matriz = [[], [], []]
+for linha in range(3):
+        for coluna in range(3):
+            matriz[coluna].append(int(input(f'Digite o valor [{linha}][{coluna}]: ')))
+for cont in range(3):
+    print(f' [{matriz[0][cont]:^5}][{matriz[1][cont]:^5}][{matriz[2][cont]:^5}]')
