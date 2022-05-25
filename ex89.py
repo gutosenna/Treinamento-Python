@@ -1,4 +1,4 @@
-#Exercício Python 089:
+# Exercício Python 089:
 # Crie um programa que leia nome e duas notas de vários alunos e
 # guarde tudo em uma lista composta.
 # No final, mostre um boletim contendo a média de cada um e
@@ -16,7 +16,7 @@ while True:
         break
 print('No. Nome  MÉDIA')
 for i, al in enumerate(alunos):
-    print(i,'  ', alunos[i], '  ', sum(boletim[i])/2)
+    print(i, '  ', alunos[i], '  ', sum(boletim[i])/2)
 while True:
     r = int(input('Mostrar notas de qual aluno? (999 interrompe): '))
     if r == 999:
@@ -29,5 +29,3 @@ while True:
         print('-' * 60)
     else:
         print('ALUNO NÃO CADASTRADO! TENTE UM NÚMERO VÁLIDO.')
-
-
