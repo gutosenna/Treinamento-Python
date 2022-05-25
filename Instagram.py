@@ -2,7 +2,7 @@ from datetime import datetime
 import instaloader
 
 L = instaloader.Instaloader()
-L.login('***login***', '***senha***')
+L.login('gutosenna58@hotmail.com', 'ZXC321zxc321')
 
 followers = instaloader.Profile.from_username(L.context, 'medeirosbarbaras').get_followers()
 followees = instaloader.Profile.from_username(L.context, 'medeirosbarbaras').get_followees()
