@@ -1,9 +1,4 @@
 import sys
-sys.path.insert(0,'/usr/lib/chromium-browser/chromedriver')
-chrome_options = webdriver.ChromeOptions()
-chrome_options.add_argument('--headless')
-chrome_options.add_argument('--no-sandbox')
-chrome_options.add_argument('--disable-dev-shm-usage')
 import re
 import selenium
 from selenium import webdriver
@@ -17,6 +12,11 @@ from selenium.webdriver.firefox.options import Options
 import time
 from bs4 import BeautifulSoup as bs
 from time import sleep
+sys.path.insert(0,'/usr/lib/chromium-browser/chromedriver')
+chrome_options = webdriver.ChromeOptions()
+chrome_options.add_argument('--headless')
+chrome_options.add_argument('--no-sandbox')
+chrome_options.add_argument('--disable-dev-shm-usage')
 driver = webdriver.Chrome('chromedriver',chrome_options=chrome_options)
 link= 'http://www.google.com'
 driver.get(link)
