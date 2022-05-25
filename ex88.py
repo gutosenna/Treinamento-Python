@@ -23,6 +23,12 @@ while tot < resp:
     sena.append(lista[:])
     lista.clear()
     tot += 1
-for c in range(len(sena)):
+print('-=' * 3, f' SORTEANDO {resp} JOGOS ','-=' * 3)
+#for c in range(len(sena)):
+#    sleep(0.8)
+#    print(f'Jogo {c+1}: {sena[c]}')
+for i, l in enumerate(sena):
     sleep(0.8)
-    print(f'Jogo {c+1}: {sena[c]}')
+    print(f'Jogo {i+1}: {l}')
+sleep(0.8)
+print('-=' * 5, '< BOA SORTE! >', '-=' * 5)
