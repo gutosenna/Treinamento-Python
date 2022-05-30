@@ -7,7 +7,7 @@
 # C) Uma lista com as mulheres
 # D) Uma lista de pessoas com idade acima da média
 pessoa = dict()
-lista, idades, mulheres, idade_acima_media = list(), list(), list(), list()
+lista, idades = list(), list()
 media = 0
 while True:
     pessoa.clear()
