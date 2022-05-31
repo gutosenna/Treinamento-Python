@@ -39,5 +39,4 @@ while True:
         print(f'-- LEVANTAMENTO DO JOGADOR {times[dados]["nome"]}')
         for i, v in enumerate(times[dados]["gols"]):
             print(f'{"":>3}=> No jogo {i+1}, fez {v} gols.')
-
 print('VOLTE SEMPRE!')
