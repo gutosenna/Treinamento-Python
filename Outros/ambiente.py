@@ -1,2 +1,2 @@
 
-help(somar2)
+# help(somar2)

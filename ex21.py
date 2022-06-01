@@ -17,7 +17,7 @@
 
 # from pydub import AudioSegment
 # from pydub.playback import play
-#
+# #
 # song = AudioSegment.from_mp3("sound.wav")
 # play(song)
 
@@ -31,8 +31,8 @@
 # print('Tocando: ')
 # playsound('ex21.mp3')
 
-# import playsound
-# playsound.playsound('ex21.mp3')
+import playsound
+playsound.playsound('ex21.mp3')
 #
 # import pygame
 # pygame.mixer.init()
@@ -100,9 +100,10 @@
 # import pygame
 #
 # pygame.init()
-# pygame.mixer.music.load('ex21.mp3')
-# pygame.mixer.music.play()
+# pygame.mixer_music.load('ex21.mp3')
+# pygame.mixer_music.play()
 # pygame.event.wait()
+# input()
 
 # import pygame
 # pygame.mixer.init()
