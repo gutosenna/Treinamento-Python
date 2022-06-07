@@ -1,0 +1,1 @@
+from ex113.utilidades import dados
