@@ -4,7 +4,7 @@
 import moeda
 
 n = float(input('Digite o preço: R$ '))
-moeda.metade(n)
-moeda.dobro(n)
-moeda.aumentar(n, 10)
-moeda.diminuir(n, 10)
+print(f'Aumentando 10%, temos {moeda.aumentar(n, 10)}')
+print(f'Diminuindo 10%, temos {moeda.diminuir(n, 10)}')
+print(f'O dobro de {n} é {moeda.dobro(n)}')
+print(f'A metade de {n} é {moeda.metade(n)}')

@@ -1,16 +1,14 @@
 def aumentar(n, taxa):
-    aumentado = n + (n * (taxa/100))
-    print(f'Aumentando 10%, temos {aumentado}')
+    return n + (n * (taxa/100))
 
 
 def diminuir(n, taxa):
-    diminuido = n - (n * (taxa / 100))
-    print(f'Diminuindo 10%, temos {diminuido}')
+    return n - (n * (taxa / 100))
 
 
 def dobro(n):
-    print(f'O dobro de {n} é {n * 2}')
+    return n * 2
 
 
 def metade(n):
-    print(f'A metade de {n} é {n / 2}')
+    return n / 2
