@@ -2,18 +2,21 @@ def linha(tam=42):
     return '-' * tam
 
 
-def cabecalho(txt):
+def cabecalho(txt, cor='white', fcor='\033[m'):
+    cores = {'yellow': '\033[33m', 'green': '\033[32m', 'red': '\033[31m', 'blue': '\033[34m', 'white': '\033[37m'}
     print(linha())
-    print(txt.center(42))
+    print(cores[cor], txt.center(42), fcor)
     print(linha())
 
 def menu(lista):
     cabecalho('MENU PRINCIPAL')
     c = 1
     for item in lista:
-        print(f'\033[32m{c}\033[m - {item}')
+        print(f'\033[33m{c}\033[m - \033[34m{item}\033[m')
         c += 1
     print(linha())
+    opc = leiaInt('\033[32mSua Opção: \033[m')
+    return opc
 
 
 def leiaInt(msg):
