@@ -18,11 +18,11 @@ def leiaInt(msg):
         try:
             if n.isnumeric():
                 valor = int(n)
-                ok = True
-            else:
-                print('\033[0;31mERRO! Digite um número inteiro válido.\033[m')
-            if ok:
                 break
+        except:
+            print('\033[0;31mERRO! Digite um número inteiro válido.\033[m')
+            continue
     return valor
 
 def leiaFloat(msg):
+    pass

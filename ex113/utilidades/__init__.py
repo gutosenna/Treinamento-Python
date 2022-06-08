@@ -1,1 +1,1 @@
-from ex113.utilidades import dados
+from ex113.utilidades import *
